@@ -12,6 +12,7 @@ import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 import upickle.core.NoOpVisitor
 
 import scala.util.Try
+import org.scalatest.matchers.should.Matchers
 
 class SyntaxCheck extends AnyPropSpec with Matchers with ScalaCheckPropertyChecks {
 

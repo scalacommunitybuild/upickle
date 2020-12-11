@@ -1,8 +1,8 @@
 package ujson
 
-import org.scalatest.Matchers
 import org.scalatest.propspec.AnyPropSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
+import org.scalatest.matchers.should.Matchers
 
 class FileJNumIndexCheck extends AnyPropSpec with Matchers with ScalaCheckPropertyChecks {
 

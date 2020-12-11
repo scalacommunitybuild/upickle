@@ -3,6 +3,7 @@ package ujson
 import org.scalatest._
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 import org.scalacheck._
+import org.scalatest.matchers.should.Matchers
 
 class BoolSpec extends propspec.AnyPropSpec with Matchers with ScalaCheckPropertyChecks with Inside {
 

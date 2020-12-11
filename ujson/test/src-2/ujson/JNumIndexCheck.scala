@@ -2,10 +2,10 @@ package ujson
 
 import java.nio.ByteBuffer
 
-import org.scalatest.Matchers
 import org.scalatest.propspec.AnyPropSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 import upickle.core.{ArrVisitor, ObjVisitor, Visitor}
+import org.scalatest.matchers.should.Matchers
 object JNumIndexCheckFacade extends JsVisitor[Boolean, Boolean] {
   def visitArray(length: Int, index: Int)  = new ArrVisitor[Boolean, Boolean] {
     var failed = false

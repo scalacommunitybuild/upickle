@@ -3,6 +3,7 @@ package ujson
 import org.scalatest._
 import org.scalatest.propspec._
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
+import org.scalatest.matchers.should.Matchers
 
 class CharBuilderSpec extends AnyPropSpec with Matchers with ScalaCheckPropertyChecks {
 

@@ -1,10 +1,10 @@
 package ujson
 
-import org.scalatest.Matchers
 import org.scalatest.propspec.AnyPropSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 
 import upickle.core.NoOpVisitor
+import org.scalatest.matchers.should.Matchers
 
 class ChannelSpec extends AnyPropSpec with Matchers with ScalaCheckPropertyChecks {
 
