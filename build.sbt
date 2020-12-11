@@ -59,7 +59,7 @@ val ujsonPlay = (project in file("ujson/play")).settings(
 ).dependsOn(ujson)
 
 val ujsonTest = (project in file("ujson/test")).settings(
-  name := "ujson",
+  name := "ujson-test",
   libraryDependencies += "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.4",
   libraryDependencies += "com.lihaoyi" %% "geny" % "0.6.2",
   libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.1" % Test,
